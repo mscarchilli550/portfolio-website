@@ -1,0 +1,181 @@
+/*
+Colors used:
+Main:
+Primary Color: #26AECF
+Secondary Color: #F8E749
+
+Sea Vibes:
+Primary Color (Dark Aqua): #6d979c;
+Secondary Color (Light Aqua): #60b6bb;
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 0 15px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+
+header {
+    padding: 10px 0;
+    border-bottom: 3px solid #000000; 
+    text-align: center;
+	background: #F8F8F8; 
+	border: solid #BDBDBD 1px; 
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    width: 100%;
+    position: fixed;
+}
+
+nav  {
+    font-size: 1.15em;
+    font-weight: 600;
+    display: inline-block;
+    width: 100%;
+}
+
+nav > ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav > ul > li {
+    display: inline-block;
+}
+
+nav > ul > li > a {
+    padding: 0 15px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+main {
+    padding-top: 133px;
+  }
+
+h1, h2, h3, h4 {
+    line-height: 1.4;
+}
+
+h1 {
+   font-size: 4.25em;
+   font-weight: 700; 
+}
+
+h2 {
+    font-size: 2.75em;
+    font-weight: 700;
+}
+  
+h3 {
+    font-size: 1.75em;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.35em;
+    font-weight: 400;
+}
+
+a {
+    color: #6d979c;
+    font-weight: 600;
+    text-decoration: none; /* No underlining */
+}
+
+a:visited { /* visited link */
+    color: #000000;
+    opacity: 0.8;
+}
+
+a:hover {
+    color: #135767;
+}
+
+a:active { /* selected link */
+    color: #26AECF;
+}
+
+a:hover,
+a:focus {
+  color: #26AECF;
+}
+
+.button {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #26AECF;
+    padding: 10px;
+    border-radius: 3px;
+    border-bottom: 2px solid #1a7990;
+    transition: 0.2 opacity;
+}
+
+.button:hover {
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.button:active {
+    color: #26AECF;
+}
+
+.button.contact {
+    background-color: transparent;
+    color: #26AECF;
+    text-transform: uppercase;
+    border: 2px solid #26AECF;
+}
+
+.button.contact:hover {
+    background-color: #7ccee2;
+    color: #ffffff;
+}
+
+.button.contact:active {
+    color: #994c30;
+}
+
+#name {
+    font-size: 22px;
+}
+
+#seavibeshero {
+    width: 350px;
+}
+
+#new_model {
+    transform: rotate(180deg);
+}
+
+.row {
+    margin: 25px 0;
+}
+
+#work .row {
+    padding-bottom: 25px;
+    border-bottom: 2 px solid black;
+}
+
+#hero {
+    text-align: center;
+    color: white;
+    background-color: #26AECF;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+.logo {
+    max-width: 250px;
+}

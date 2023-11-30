@@ -3,15 +3,21 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Matt Scarchilli UX Portfolio</title>
     <link rel="shortcut icon" href="img/favicon_io/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <div>
+        <div class="container">
             <img src="" alt="">
-            <a href="index.html">Matt Scarchilli</a>
+            <a href="index.html" id="name" class="logo">Matt Scarchilli</a>
             <nav>
                 <ul>
                     <li><a href="#work">Work</a></li>
@@ -22,12 +28,22 @@
         </div>
     </header>
     <main>
-        <div>
+        <div class="container">
             <!-- Brief -->
+            <div> 
+                <div>
+                    <h1>Sea Vibes</h1>
+                    <h4>marine weather app</h4>
+                    <h3>weather your way</h3>
+                </div>
+                <div>
+                    <picture>
+                        <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
+                        <img src="img/Large/hero-img.png" alt="phone screen" id="seavibeshero">
+                    </picture>
+                </div>
+            </div>
             <div>
-                <h1>Sea Vibes</h1>
-                <h4>Responsive Web App</h4>
-                <p>project description</p>
                 <div>
                     <div>
                         <h3>My Role</h3>
@@ -45,16 +61,11 @@
                 </div>
             </div>
              <!-- Hero Image -->
-            <div>
-                <picture>
-                    <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                    <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
-                </picture>
-            </div>
+         
             <!-- Problem -->
             <div>
                 <h4>Problem</h4>
-                <h1>Weather apps can be overwhelming, confusing, and time consuming</h1>
+                <h2>Weather apps can be overwhelming, confusing, and time consuming</h2>
                 <br>
                 <p>Current weather apps present a great amount of data. Users are left to dechipher conditions for themselves which can leave them feeling less that certain. With safety and enjoyment on the line, this causes frustration and wastes time since it is a repeated process.</p>
                 <h5>How can a weather app save time and keep the experience of planning an outing on the water enjoyable?</h5>
@@ -62,7 +73,7 @@
             <!-- Solution -->
             <div>
                 <h4>Solution</h4>
-                <h1>Give them what they want</h1>
+                <h2>Give them what they want</h2>
                 <br>
                 <p>An app that address <strong>real question</strong> users are asking. It's not what the weather will be, it's <strong>"When can I do my thing?"</strong> There should be no need to brush up on highschool science class to know the best times to hit the water (although it can't hurt).</p>
                 <h5>How can a weather app save time and keep the experience of planning an outing on the water enjoyable?</h5>
@@ -79,17 +90,17 @@
                         <p>Sifting through <strong>all</strong> weather condition data and having to decide for yourself what the vest times are. Every time.</p>
                         <picture>
                             <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                            <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                            <img src="img/Large/old model.png" alt="">
                         </picture>
-                     </div>
+                    </div>
                 </div>
                 <div>
                     <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                        <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                        <img src="img/Large/old model.png" alt="" id="new_model">
                     </picture>
                     <div>
-                        <H3>New model:</H3>
+                        <h3>New model:</h3>
                         <p>The same model, just flipped.</p>
                         <p>The best times are displayed for you first. Then you can dive deeper into more specific details about the weather if you choose to.</p>
                     </div>
@@ -107,13 +118,17 @@
                     </ul>
                     <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                        <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                        <img src="img/Large/preferences1.png" alt="">
+                    </picture>
+                    <picture>
+                        <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
+                        <img src="img/Large/preferences2.png" alt="">
                     </picture>
                 </div>
                 <div>
                     <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                        <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                        <img src="img/Large/best-times.png" alt="">
                     </picture>
                     <h3>See the best times first</h3>
                     <p>Users can see the best times for their activty from a top down approach</p>
@@ -131,7 +146,7 @@
                     </ul>
                     <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                        <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                        <img src="img/Large/dive-deeper.png" alt="">
                     </picture>
                 </div>
             </div>
@@ -141,21 +156,21 @@
             <div>
                 <h5>RESEARCH | COMPETIVE ANALYSIS</h5>
                 <section>
-                    <h1>The competition was different flavors of the same thing</h1>
+                    <h2>The competition was different flavors of the same thing</h2>
                     <br>
                     <p>I analyzed a few of the most popular marine weather apps and found that they mostly present the same information and in the same fashion, leaving the user to deciper what it all means for themselves.</p>
                 </section>
                 <div>
                     <section>
-                        <img src="" alt="">
+                        <img src="img/Large/buoyweather.png" alt="">
                         <h4>Buoyweather</h4>
                     </section>
                     <section>
-                        <img src="" alt="">
+                        <img src="img/Large/marineweather.png" alt="">
                         <h4>NOAA Marine Weather</h4>
                     </section>
                     <section>
-                        <img src="" alt="">
+                        <img src="img/Large/surfline.jpeg" alt="">
                         <h4>Surfline</h4>
                     </section>
                 </div>
@@ -163,14 +178,14 @@
             <div>
                 <p>Surfline, one of the more advanced competitors, provides a wide breadth of information all at once. I called this a <strong>"shotgunblast of information.</strong> It's information overload, and things such as time even repeat. My goal was to <strong>optimize this appraoch without lostin vital information.</strong></p>
                 <section>
-                    <img src="" alt="">
+                    <img src="img/Large/surfline.jpeg" alt="">
                     <h4>Surfline</h4>
                 </section>
-                <img src="" alt="">
+                <img src="img/Large/surfline-chart.png" alt="">
             </div>
             <div> <!--Interviews-->
                 <h5>RESEARCH | USER INTERVIEWS</h5>
-                <h1>All the interviewees were looking for inforamtion specific to their activity/skill level.</h1>
+                <h2>All the interviewees were looking for inforamtion specific to their activity/skill level.</h2>
                 <br>
                 <div>
                     <div>
@@ -193,7 +208,7 @@
                 <h5>RESEARCH | AFFINITY MAPPING</h5>
                 <picture>
                     <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                    <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                    <img src="img/Large/affinity-map.png" alt="">
                 </picture>
             </div>
 
@@ -202,7 +217,7 @@
             <div> <!--Insights-->
                 <h5>SYNTHESIS | INSIGHTS</h5>
                 <section>
-                    <h1>Users are looking at weather with a purpose.</h1>
+                    <h2>Users are looking at weather with a purpose.</h2>
                     <p>Based on fingings from infinity mapping, I noticed each water sport enthusiast has a specific set of criteria they search for in the weather forecast when deciding to pursue their activity.</p>
                     <br>
                     <ul>
@@ -243,13 +258,13 @@
                     <div>
                         <picture>
                             <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                            <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                            <img src="img/Large/dan.png" alt="">
                         </picture> 
                     </div>
                     <div>
                         <picture>
                             <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                            <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                            <img src="img/Large/ashely.png" alt="">
                         </picture> 
                     </div>
                 </div>
@@ -260,7 +275,7 @@
                 <div>
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/user-journey.png" alt="">
                      </picture> 
                 </div>
             </div>
@@ -269,11 +284,7 @@
                 <div>
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
-                     </picture> 
-                     <picture>
-                        <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/sitemap.png" alt="">
                      </picture> 
                 </div>
             </div>
@@ -286,19 +297,19 @@
                 <div>
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/chart1.png" alt="">
                      </picture> 
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/chart2.png" alt="">
                      </picture> 
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/chart3.png" alt="">
                      </picture> 
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/chart4.png" alt="">
                      </picture> 
                 </div>
             </div>
@@ -314,11 +325,11 @@
                 <div>
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/testing1.png" alt="">
                      </picture> 
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/testing2.png" alt="">
                      </picture> 
                 </div>
             </div>
@@ -327,8 +338,16 @@
                 <div>
                     <picture>
                        <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                        <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
-                    </picture> 
+                        <img src="img/Large/alerts1.png" alt="">
+                    </picture>
+                    <picture>
+                        <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
+                         <img src="img/Large/alerts2.png" alt="">
+                     </picture> 
+                     <picture>
+                        <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
+                         <img src="img/Large/alerts3.png" alt="">
+                     </picture>  
                </div>
                 <h3>Distingishing between "alerts" and "notification"</h3>
                 <p>Alerts and notifications were both originally in the design</p>
@@ -344,7 +363,7 @@
                 <div>
                      <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                         <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                         <img src="img/Large/favorites.png" alt="">
                      </picture> 
                 </div>
             </div>
@@ -355,14 +374,14 @@
                 <h5>STYLE GUIDE</h5>
                     <picture>
                         <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                        <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                        <img src="img/Large/fonts.png" alt="">
                     </picture> 
                 </div>
             </div>
             <div> 
                 <picture>
                     <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                    <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                    <img src="img/Large/colors.png" alt="">
                 </picture> 
             </div>
 
@@ -372,7 +391,11 @@
                 <h5>FINAL DESIGN</h5>
                 <picture>
                     <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
-                    <img src="https://dummyimage.com/1200x800/000/fff.jpg" alt="">
+                    <img src="img/Large/final1.png" alt="">
+                </picture> 
+                <picture>
+                    <source srcset="https://placehold.co/600x400" media="(max-width:767px)">
+                    <img src="img/Large/final2.png" alt="">
                 </picture> 
             </div>
 
